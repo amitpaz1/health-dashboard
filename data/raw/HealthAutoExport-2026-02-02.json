@@ -1,0 +1,3824 @@
+{
+  "data" : {
+    "metrics" : [
+      {
+        "units" : "count",
+        "data" : [
+          {
+            "qty" : 1,
+            "date" : "2026-02-02 06:00:00 +0200"
+          }
+        ],
+        "name" : "apple_stand_hour"
+      },
+      {
+        "units" : "%",
+        "data" : [
+          {
+            "qty" : 92,
+            "date" : "2026-02-02 00:33:00 +0200"
+          },
+          {
+            "qty" : 96,
+            "date" : "2026-02-02 01:59:00 +0200"
+          },
+          {
+            "qty" : 93,
+            "date" : "2026-02-02 02:59:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:49:00 +0200",
+            "qty" : 94
+          },
+          {
+            "date" : "2026-02-02 04:19:00 +0200",
+            "qty" : 96
+          },
+          {
+            "date" : "2026-02-02 05:48:00 +0200",
+            "qty" : 93
+          }
+        ],
+        "name" : "blood_oxygen_saturation"
+      },
+      {
+        "name" : "apple_stand_time",
+        "units" : "min",
+        "data" : [
+          {
+            "date" : "2026-02-02 06:00:00 +0200",
+            "qty" : 0.20000000000000001,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:01:00 +0200",
+            "qty" : 0.20000000000000001
+          },
+          {
+            "date" : "2026-02-02 06:02:00 +0200",
+            "qty" : 0.20000000000000001,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:03:00 +0200",
+            "qty" : 0.20000000000000004
+          },
+          {
+            "qty" : 0.20000000000000004,
+            "date" : "2026-02-02 06:04:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:50:00 +0200",
+            "qty" : 0.20000000000000001,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.20000000000000001,
+            "date" : "2026-02-02 06:51:00 +0200"
+          },
+          {
+            "qty" : 0.20000000000000001,
+            "date" : "2026-02-02 06:52:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.20000000000000004,
+            "date" : "2026-02-02 06:53:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.20000000000000004,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:54:00 +0200"
+          }
+        ]
+      },
+      {
+        "data" : [
+          {
+            "date" : "2026-02-02 00:25:00 +0200",
+            "qty" : 19.472288910534608
+          },
+          {
+            "date" : "2026-02-02 02:25:00 +0200",
+            "qty" : 22.442697777331606
+          },
+          {
+            "date" : "2026-02-02 04:25:00 +0200",
+            "qty" : 12.841725921983299
+          }
+        ],
+        "name" : "heart_rate_variability",
+        "units" : "ms"
+      },
+      {
+        "name" : "headphone_audio_exposure",
+        "units" : "dBASPL",
+        "data" : [
+          {
+            "date" : "2026-02-02 06:32:00 +0200",
+            "qty" : 76.767713006748409
+          },
+          {
+            "qty" : 72.363866627316952,
+            "date" : "2026-02-02 06:49:00 +0200"
+          }
+        ]
+      },
+      {
+        "name" : "environmental_audio_exposure",
+        "units" : "dBASPL",
+        "data" : [
+          {
+            "qty" : 46.945649913956245,
+            "date" : "2026-02-01 23:46:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:16:00 +0200",
+            "qty" : 54.002101879580181
+          },
+          {
+            "date" : "2026-02-02 00:46:00 +0200",
+            "qty" : 51.840936155197028
+          },
+          {
+            "qty" : 50.891290497711964,
+            "date" : "2026-02-02 01:16:00 +0200"
+          },
+          {
+            "qty" : 45.673427088132115,
+            "date" : "2026-02-02 01:46:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:16:00 +0200",
+            "qty" : 57.813167004345473
+          },
+          {
+            "qty" : 44.853810446554654,
+            "date" : "2026-02-02 02:46:00 +0200"
+          },
+          {
+            "qty" : 47.60238668421465,
+            "date" : "2026-02-02 03:16:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:46:00 +0200",
+            "qty" : 36.108550253095949
+          },
+          {
+            "qty" : 38.147164331770661,
+            "date" : "2026-02-02 04:16:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:46:00 +0200",
+            "qty" : 40.811892410799764
+          },
+          {
+            "date" : "2026-02-02 05:16:00 +0200",
+            "qty" : 36.359423948715268
+          },
+          {
+            "qty" : 42.026166589239949,
+            "date" : "2026-02-02 05:46:00 +0200"
+          },
+          {
+            "qty" : 58.855880916458368,
+            "date" : "2026-02-02 06:16:00 +0200"
+          }
+        ]
+      },
+      {
+        "data" : [
+          {
+            "date" : "2026-02-02 00:12:00 +0200",
+            "qty" : 0.066716171407979891,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.98765182859202005,
+            "date" : "2026-02-02 00:13:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:31:00 +0200",
+            "qty" : 0.1540911488724403
+          },
+          {
+            "qty" : 0.38024036676947442,
+            "date" : "2026-02-02 00:32:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:33:00 +0200",
+            "qty" : 0.38024036676947448
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.38024036676947448,
+            "date" : "2026-02-02 00:34:00 +0200"
+          },
+          {
+            "qty" : 0.38024036676947448,
+            "date" : "2026-02-02 00:35:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.38024036676947454,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:36:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:37:00 +0200",
+            "qty" : 0.38024036676947454,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:38:00 +0200",
+            "qty" : 0.38024036676947454
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:39:00 +0200",
+            "qty" : 0.38024036676947454
+          },
+          {
+            "qty" : 0.054953916971764251,
+            "date" : "2026-02-02 00:40:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.082948458751551921,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:05:00 +0200"
+          },
+          {
+            "qty" : 0.22022356021977935,
+            "date" : "2026-02-02 01:06:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:07:00 +0200",
+            "qty" : 0.22022356021977929
+          },
+          {
+            "date" : "2026-02-02 01:08:00 +0200",
+            "qty" : 0.22022356021977932,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:09:00 +0200",
+            "qty" : 0.22022356021977929,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:10:00 +0200",
+            "qty" : 0.22022356021977926
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:11:00 +0200",
+            "qty" : 0.22022356021977926
+          },
+          {
+            "date" : "2026-02-02 01:12:00 +0200",
+            "qty" : 0.22022356021977926,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:13:00 +0200",
+            "qty" : 0.18297461970999293
+          },
+          {
+            "qty" : 0.18851203070658534,
+            "date" : "2026-02-02 01:27:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:28:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 1.271530772606839
+          },
+          {
+            "date" : "2026-02-02 01:29:00 +0200",
+            "qty" : 1.271530772606839,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:30:00 +0200",
+            "qty" : 1.2715307726068392,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 1.2715307726068392,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:31:00 +0200"
+          },
+          {
+            "qty" : 0.59551687886606075,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:32:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:58:00 +0200",
+            "qty" : 0.56065600000000004
+          },
+          {
+            "qty" : 0.36607455776710118,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:19:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:20:00 +0200",
+            "qty" : 0.7228930949819049
+          },
+          {
+            "qty" : 0.27083234725099387,
+            "date" : "2026-02-02 02:21:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:42:00 +0200",
+            "qty" : 1.5709968873381144
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:43:00 +0200",
+            "qty" : 2.4372751126618852
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.93303199999999997,
+            "date" : "2026-02-02 02:58:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:10:00 +0200",
+            "qty" : 0.12255954594093757,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:11:00 +0200",
+            "qty" : 0.17042802502145066
+          },
+          {
+            "qty" : 0.17042802502145066,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:12:00 +0200"
+          },
+          {
+            "qty" : 0.17042802502145063,
+            "date" : "2026-02-02 03:13:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:14:00 +0200",
+            "qty" : 0.17042802502145066,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:15:00 +0200",
+            "qty" : 0.17042802502145069,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.17042802502145066,
+            "date" : "2026-02-02 03:16:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:17:00 +0200",
+            "qty" : 0.17042802502145069,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:18:00 +0200",
+            "qty" : 0.17042802502145069,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:19:00 +0200",
+            "qty" : 0.17042802502145069,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:20:00 +0200",
+            "qty" : 0.36446022886600671,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:28:00 +0200",
+            "qty" : 0.035896519058730279
+          },
+          {
+            "date" : "2026-02-02 03:29:00 +0200",
+            "qty" : 0.4487436378731211,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.44874363787312121,
+            "date" : "2026-02-02 03:30:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:31:00 +0200",
+            "qty" : 0.44874363787312121,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.4487436378731211,
+            "date" : "2026-02-02 03:32:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.4487436378731211,
+            "date" : "2026-02-02 03:33:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:34:00 +0200",
+            "qty" : 0.44874363787312105
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.44874363787312099,
+            "date" : "2026-02-02 03:35:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:36:00 +0200",
+            "qty" : 0.44874363787312105,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:37:00 +0200",
+            "qty" : 0.44100237795630076
+          },
+          {
+            "date" : "2026-02-02 03:48:00 +0200",
+            "qty" : 0.33954964332764898,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.57863165851437937,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:49:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:50:00 +0200",
+            "qty" : 0.57863165851437948
+          },
+          {
+            "date" : "2026-02-02 03:51:00 +0200",
+            "qty" : 0.57863165851437948,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:52:00 +0200",
+            "qty" : 0.57863165851437937
+          },
+          {
+            "qty" : 0.57863165851437937,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:53:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:54:00 +0200",
+            "qty" : 0.13122806410045429,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:06:00 +0200",
+            "qty" : 0.74893600000000005
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.92000044114087098,
+            "date" : "2026-02-02 04:32:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:33:00 +0200",
+            "qty" : 1.7535755588591291,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:45:00 +0200",
+            "qty" : 0.81611791953523261
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:46:00 +0200",
+            "qty" : 0.56041808046476738
+          },
+          {
+            "date" : "2026-02-02 04:50:00 +0200",
+            "qty" : 0.673624,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 1.4978720000000001,
+            "date" : "2026-02-02 05:34:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:38:00 +0200",
+            "qty" : 0.14031920354168512,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.17369104548900971,
+            "date" : "2026-02-02 05:39:00 +0200"
+          },
+          {
+            "qty" : 0.17369104548900968,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:40:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:41:00 +0200",
+            "qty" : 0.17369104548900971,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.17369104548900968,
+            "date" : "2026-02-02 05:42:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.17369104548900968,
+            "date" : "2026-02-02 05:43:00 +0200"
+          },
+          {
+            "qty" : 0.17369104548900968,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:44:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:45:00 +0200",
+            "qty" : 0.17369104548900971,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.15845147803524695,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:46:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:53:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.39852293483538676
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:54:00 +0200",
+            "qty" : 0.97382906516461321
+          },
+          {
+            "date" : "2026-02-02 05:56:00 +0200",
+            "qty" : 0.85169598354095732,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 1.6620533674402589,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:57:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:58:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 1.6620533674402591
+          },
+          {
+            "qty" : 1.6620533674402593,
+            "date" : "2026-02-02 05:59:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 1.6620533674402593,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:00:00 +0200"
+          },
+          {
+            "qty" : 1.6620533674402593,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:01:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 1.6620533674402593,
+            "date" : "2026-02-02 06:02:00 +0200"
+          },
+          {
+            "qty" : 1.6620533674402596,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:03:00 +0200"
+          },
+          {
+            "qty" : 1.6620533674402596,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:04:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:05:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.62976507693696937
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:07:00 +0200",
+            "qty" : 0.016593148967196318
+          },
+          {
+            "date" : "2026-02-02 06:08:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.29449133879807315
+          },
+          {
+            "date" : "2026-02-02 06:09:00 +0200",
+            "qty" : 0.29449133879807315,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:10:00 +0200",
+            "qty" : 0.29449133879807315,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:11:00 +0200",
+            "qty" : 0.29449133879807321
+          },
+          {
+            "qty" : 0.29449133879807321,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:12:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:13:00 +0200",
+            "qty" : 0.29449133879807332,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.29449133879807321,
+            "date" : "2026-02-02 06:14:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 0.29449133879807332,
+            "date" : "2026-02-02 06:15:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:16:00 +0200",
+            "qty" : 0.29449133879807321,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:17:00 +0200",
+            "qty" : 0.2534168018501452,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:18:00 +0200",
+            "qty" : 0.84404673148201692,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:19:00 +0200",
+            "qty" : 1.058362120852367,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:20:00 +0200",
+            "qty" : 1.2059236344307238,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:21:00 +0200",
+            "qty" : 2.3200898289419265
+          },
+          {
+            "qty" : 2.3200898289419265,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:22:00 +0200"
+          },
+          {
+            "qty" : 2.3200898289419265,
+            "date" : "2026-02-02 06:23:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.3200898289419269,
+            "date" : "2026-02-02 06:24:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:25:00 +0200",
+            "qty" : 2.3200898289419269,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 2.3200898289419269,
+            "date" : "2026-02-02 06:26:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.3200898289419269,
+            "date" : "2026-02-02 06:27:00 +0200"
+          },
+          {
+            "qty" : 2.3200898289419274,
+            "date" : "2026-02-02 06:28:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:29:00 +0200",
+            "qty" : 2.3200898289419269
+          },
+          {
+            "qty" : 2.1275752754476609,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:30:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:31:00 +0200",
+            "qty" : 1.9247949928001311,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:32:00 +0200",
+            "qty" : 1.9247949928001309
+          },
+          {
+            "date" : "2026-02-02 06:33:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 1.9247949928001311
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 1.9247949928001311,
+            "date" : "2026-02-02 06:34:00 +0200"
+          },
+          {
+            "qty" : 1.9247949928001309,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:35:00 +0200"
+          },
+          {
+            "qty" : 1.9247949928001304,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:36:00 +0200"
+          },
+          {
+            "qty" : 1.9247949928001304,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:37:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:38:00 +0200",
+            "qty" : 1.9247949928001307,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:39:00 +0200",
+            "qty" : 1.9247949928001302
+          },
+          {
+            "qty" : 2.0696133870319726,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:40:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:41:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.3361181724754188
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.3361181724754188,
+            "date" : "2026-02-02 06:42:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:43:00 +0200",
+            "qty" : 2.3361181724754192
+          },
+          {
+            "date" : "2026-02-02 06:44:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.3361181724754192
+          },
+          {
+            "qty" : 2.3361181724754192,
+            "date" : "2026-02-02 06:45:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.3361181724754192,
+            "date" : "2026-02-02 06:46:00 +0200"
+          },
+          {
+            "qty" : 2.3361181724754188,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:47:00 +0200"
+          },
+          {
+            "qty" : 2.3361181724754192,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:48:00 +0200"
+          },
+          {
+            "qty" : 2.3361181724754192,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:49:00 +0200"
+          },
+          {
+            "qty" : 2.702742346405663,
+            "date" : "2026-02-02 06:50:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:51:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 3.0957283533299762
+          },
+          {
+            "date" : "2026-02-02 06:52:00 +0200",
+            "qty" : 3.0957283533299766,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 3.0957283533299762,
+            "date" : "2026-02-02 06:53:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 3.0957283533299762,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:54:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:55:00 +0200",
+            "qty" : 3.0957283533299762
+          },
+          {
+            "date" : "2026-02-02 06:56:00 +0200",
+            "qty" : 3.0957283533299758,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 3.0957283533299758,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:57:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:58:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 3.0957283533299762
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 3.0957283533299762,
+            "date" : "2026-02-02 06:59:00 +0200"
+          },
+          {
+            "qty" : 1.3423063764225041,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 07:00:00 +0200"
+          }
+        ],
+        "units" : "kJ",
+        "name" : "active_energy"
+      },
+      {
+        "units" : "hr",
+        "data" : [
+          {
+            "deep" : 0.43418044153187008,
+            "rem" : 1.736653172208203,
+            "inBed" : 0,
+            "date" : "2026-02-02 00:00:00 +0200",
+            "core" : 4.9763049295875756,
+            "totalSleep" : 7.1471385433276486,
+            "sleepStart" : "2026-02-01 22:13:55 +0200",
+            "sleepEnd" : "2026-02-02 05:52:48 +0200",
+            "inBedStart" : "2026-02-01 22:13:55 +0200",
+            "inBedEnd" : "2026-02-02 05:52:48 +0200",
+            "asleep" : 0,
+            "awake" : 0.50095724367433114,
+            "source" : "Amit’s Apple Watch"
+          }
+        ],
+        "name" : "sleep_analysis"
+      },
+      {
+        "units" : "count",
+        "name" : "step_count",
+        "data" : [
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:29:00 +0200",
+            "qty" : 0.69989880786476322
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:30:00 +0200",
+            "qty" : 1.819625058450268
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:31:00 +0200",
+            "qty" : 1.819625058450268
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 1.8196250584502682,
+            "date" : "2026-02-02 06:32:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:33:00 +0200",
+            "qty" : 0.84122601678443298,
+            "source" : "Amit’s Apple Watch|Amit’s iPhone"
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 10.965038654574895,
+            "date" : "2026-02-02 06:49:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:50:00 +0200",
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 13.575194732993232
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 13.575194732993234,
+            "date" : "2026-02-02 06:51:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 13.575194732993236,
+            "date" : "2026-02-02 06:52:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "date" : "2026-02-02 06:53:00 +0200",
+            "qty" : 13.575194732993236
+          },
+          {
+            "date" : "2026-02-02 06:54:00 +0200",
+            "qty" : 13.575194732993236,
+            "source" : "Amit’s Apple Watch|Amit’s iPhone"
+          },
+          {
+            "date" : "2026-02-02 06:55:00 +0200",
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 13.575194732993236
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "date" : "2026-02-02 06:56:00 +0200",
+            "qty" : 1.5837929474657066
+          }
+        ]
+      },
+      {
+        "name" : "heart_rate",
+        "units" : "count\/min",
+        "data" : [
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:00:00 +0200",
+            "Max" : 67,
+            "Min" : 67,
+            "Avg" : 67
+          },
+          {
+            "Max" : 68,
+            "Min" : 68,
+            "date" : "2026-02-02 00:05:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 68
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 60,
+            "date" : "2026-02-02 00:14:00 +0200",
+            "Avg" : 60,
+            "Min" : 60
+          },
+          {
+            "date" : "2026-02-02 00:17:00 +0200",
+            "Max" : 67,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 67,
+            "Min" : 67
+          },
+          {
+            "Avg" : 67,
+            "date" : "2026-02-02 00:21:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 67,
+            "Min" : 67
+          },
+          {
+            "Avg" : 66.108283996582031,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:25:00 +0200",
+            "Min" : 66.108283996582031,
+            "Max" : 66.108283996582031
+          },
+          {
+            "Avg" : 66,
+            "date" : "2026-02-02 00:26:00 +0200",
+            "Min" : 66,
+            "Max" : 66,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Avg" : 64,
+            "Min" : 64,
+            "source" : "Amit’s Apple Watch",
+            "Max" : 64,
+            "date" : "2026-02-02 00:30:00 +0200"
+          },
+          {
+            "Avg" : 67,
+            "source" : "Amit’s Apple Watch",
+            "Min" : 67,
+            "Max" : 67,
+            "date" : "2026-02-02 00:33:00 +0200"
+          },
+          {
+            "Min" : 70,
+            "Avg" : 70,
+            "date" : "2026-02-02 00:36:00 +0200",
+            "Max" : 70,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Max" : 69,
+            "Min" : 69,
+            "date" : "2026-02-02 00:43:00 +0200",
+            "Avg" : 69,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:47:00 +0200",
+            "Max" : 69,
+            "Avg" : 69,
+            "source" : "Amit’s Apple Watch",
+            "Min" : 69
+          },
+          {
+            "Avg" : 67,
+            "source" : "Amit’s Apple Watch",
+            "Max" : 67,
+            "Min" : 67,
+            "date" : "2026-02-02 00:51:00 +0200"
+          },
+          {
+            "Min" : 70,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:56:00 +0200",
+            "Avg" : 70,
+            "Max" : 70
+          },
+          {
+            "date" : "2026-02-02 01:01:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 71,
+            "Avg" : 71,
+            "Min" : 71
+          },
+          {
+            "Max" : 71,
+            "Min" : 71,
+            "Avg" : 71,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:09:00 +0200"
+          },
+          {
+            "Min" : 71,
+            "Max" : 71,
+            "date" : "2026-02-02 01:11:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 71
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:16:00 +0200",
+            "Max" : 70,
+            "Min" : 70,
+            "Avg" : 70
+          },
+          {
+            "date" : "2026-02-02 01:21:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Min" : 70,
+            "Max" : 70,
+            "Avg" : 70
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 72,
+            "Min" : 72,
+            "Avg" : 72,
+            "date" : "2026-02-02 01:25:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Min" : 74,
+            "Avg" : 74,
+            "date" : "2026-02-02 01:34:00 +0200",
+            "Max" : 74
+          },
+          {
+            "Max" : 73,
+            "Avg" : 73,
+            "date" : "2026-02-02 01:36:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Min" : 73
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 72,
+            "date" : "2026-02-02 01:40:00 +0200",
+            "Max" : 72,
+            "Min" : 72
+          },
+          {
+            "Avg" : 74,
+            "Min" : 74,
+            "Max" : 74,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:45:00 +0200"
+          },
+          {
+            "Max" : 73,
+            "Min" : 73,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 73,
+            "date" : "2026-02-02 01:52:00 +0200"
+          },
+          {
+            "Avg" : 75,
+            "date" : "2026-02-02 01:59:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 75,
+            "Min" : 75
+          },
+          {
+            "Avg" : 75,
+            "Min" : 75,
+            "date" : "2026-02-02 02:00:00 +0200",
+            "Max" : 75,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 75,
+            "Avg" : 75,
+            "Min" : 75,
+            "date" : "2026-02-02 02:01:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 73,
+            "date" : "2026-02-02 02:06:00 +0200",
+            "Min" : 73,
+            "Avg" : 73
+          },
+          {
+            "date" : "2026-02-02 02:10:00 +0200",
+            "Max" : 74,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 74,
+            "Min" : 74
+          },
+          {
+            "Max" : 74,
+            "source" : "Amit’s Apple Watch",
+            "Min" : 74,
+            "Avg" : 74,
+            "date" : "2026-02-02 02:15:00 +0200"
+          },
+          {
+            "Max" : 72,
+            "Avg" : 72,
+            "Min" : 72,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:22:00 +0200"
+          },
+          {
+            "Min" : 70,
+            "Max" : 71.104278564453125,
+            "date" : "2026-02-02 02:25:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 70.552139282226562
+          },
+          {
+            "date" : "2026-02-02 02:30:00 +0200",
+            "Max" : 71,
+            "Min" : 71,
+            "Avg" : 71,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Min" : 73,
+            "date" : "2026-02-02 02:35:00 +0200",
+            "Avg" : 73,
+            "source" : "Amit’s Apple Watch",
+            "Max" : 73
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:41:00 +0200",
+            "Max" : 73,
+            "Min" : 73,
+            "Avg" : 73
+          },
+          {
+            "Max" : 79,
+            "Min" : 79,
+            "Avg" : 79,
+            "date" : "2026-02-02 02:47:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Min" : 79,
+            "Max" : 79,
+            "date" : "2026-02-02 02:52:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 79
+          },
+          {
+            "date" : "2026-02-02 02:56:00 +0200",
+            "Max" : 79,
+            "source" : "Amit’s Apple Watch",
+            "Min" : 79,
+            "Avg" : 79
+          },
+          {
+            "date" : "2026-02-02 02:59:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 75,
+            "Min" : 75,
+            "Avg" : 75
+          },
+          {
+            "date" : "2026-02-02 03:01:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Min" : 76,
+            "Avg" : 76,
+            "Max" : 76
+          },
+          {
+            "Max" : 74,
+            "Avg" : 74,
+            "Min" : 74,
+            "date" : "2026-02-02 03:07:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Max" : 78,
+            "Avg" : 78,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:13:00 +0200",
+            "Min" : 78
+          },
+          {
+            "date" : "2026-02-02 03:17:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Min" : 79,
+            "Max" : 79,
+            "Avg" : 79
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:24:00 +0200",
+            "Min" : 79,
+            "Avg" : 79,
+            "Max" : 79
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Min" : 79,
+            "Avg" : 79,
+            "Max" : 79,
+            "date" : "2026-02-02 03:25:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 79,
+            "Avg" : 79,
+            "Min" : 79,
+            "date" : "2026-02-02 03:33:00 +0200"
+          },
+          {
+            "Min" : 79,
+            "date" : "2026-02-02 03:35:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 79,
+            "Avg" : 79
+          },
+          {
+            "date" : "2026-02-02 03:40:00 +0200",
+            "Max" : 75,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 75,
+            "Min" : 75
+          },
+          {
+            "date" : "2026-02-02 03:45:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Min" : 74,
+            "Max" : 74,
+            "Avg" : 74
+          },
+          {
+            "Avg" : 77,
+            "Max" : 77,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:49:00 +0200",
+            "Min" : 77
+          },
+          {
+            "Avg" : 79,
+            "Min" : 79,
+            "date" : "2026-02-02 03:55:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 79
+          },
+          {
+            "Min" : 78,
+            "date" : "2026-02-02 03:56:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 78,
+            "Avg" : 78
+          },
+          {
+            "Avg" : 77,
+            "Min" : 77,
+            "Max" : 77,
+            "date" : "2026-02-02 04:00:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:06:00 +0200",
+            "Min" : 77,
+            "Max" : 77,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 77
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Min" : 75,
+            "Avg" : 75,
+            "date" : "2026-02-02 04:11:00 +0200",
+            "Max" : 75
+          },
+          {
+            "Max" : 75,
+            "Min" : 75,
+            "Avg" : 75,
+            "date" : "2026-02-02 04:18:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:19:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 76,
+            "Min" : 76,
+            "Max" : 76
+          },
+          {
+            "date" : "2026-02-02 04:21:00 +0200",
+            "Min" : 75,
+            "Avg" : 75,
+            "Max" : 75,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Min" : 73,
+            "Max" : 75.291595458984375,
+            "date" : "2026-02-02 04:25:00 +0200",
+            "Avg" : 74.145797729492188,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:30:00 +0200",
+            "Max" : 75,
+            "Min" : 75,
+            "Avg" : 75,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Min" : 72,
+            "date" : "2026-02-02 04:36:00 +0200",
+            "Max" : 72,
+            "Avg" : 72,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 80,
+            "date" : "2026-02-02 04:43:00 +0200",
+            "Min" : 80,
+            "Max" : 80
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 71,
+            "date" : "2026-02-02 04:47:00 +0200",
+            "Avg" : 71,
+            "Min" : 71
+          },
+          {
+            "Avg" : 71,
+            "source" : "Amit’s Apple Watch",
+            "Max" : 71,
+            "Min" : 71,
+            "date" : "2026-02-02 04:50:00 +0200"
+          },
+          {
+            "Min" : 72,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 72,
+            "Max" : 72,
+            "date" : "2026-02-02 04:58:00 +0200"
+          },
+          {
+            "Min" : 72,
+            "date" : "2026-02-02 05:02:00 +0200",
+            "Max" : 72,
+            "Avg" : 72,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Avg" : 72,
+            "source" : "Amit’s Apple Watch",
+            "Max" : 72,
+            "date" : "2026-02-02 05:06:00 +0200",
+            "Min" : 72
+          },
+          {
+            "Min" : 72,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 72,
+            "date" : "2026-02-02 05:10:00 +0200",
+            "Max" : 72
+          },
+          {
+            "Avg" : 72,
+            "source" : "Amit’s Apple Watch",
+            "Min" : 72,
+            "date" : "2026-02-02 05:16:00 +0200",
+            "Max" : 72
+          },
+          {
+            "Max" : 72,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 72,
+            "Min" : 72,
+            "date" : "2026-02-02 05:20:00 +0200"
+          },
+          {
+            "Min" : 71,
+            "Avg" : 71,
+            "date" : "2026-02-02 05:25:00 +0200",
+            "Max" : 71,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Min" : 71,
+            "Avg" : 71,
+            "date" : "2026-02-02 05:30:00 +0200",
+            "Max" : 71
+          },
+          {
+            "Min" : 67,
+            "Avg" : 67,
+            "Max" : 67,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:35:00 +0200"
+          },
+          {
+            "Min" : 68,
+            "date" : "2026-02-02 05:40:00 +0200",
+            "Max" : 68,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 68
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:45:00 +0200",
+            "Min" : 72,
+            "Avg" : 72,
+            "Max" : 72
+          },
+          {
+            "date" : "2026-02-02 05:48:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 72,
+            "Min" : 72,
+            "Max" : 72
+          },
+          {
+            "Avg" : 70,
+            "Max" : 70,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:51:00 +0200",
+            "Min" : 70
+          },
+          {
+            "Avg" : 68,
+            "Min" : 68,
+            "date" : "2026-02-02 05:56:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Max" : 68
+          },
+          {
+            "Min" : 73,
+            "Avg" : 73,
+            "Max" : 73,
+            "date" : "2026-02-02 06:01:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Min" : 79,
+            "Max" : 79,
+            "Avg" : 79,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:05:00 +0200"
+          },
+          {
+            "Avg" : 73,
+            "Min" : 73,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:14:00 +0200",
+            "Max" : 73
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Max" : 73,
+            "date" : "2026-02-02 06:16:00 +0200",
+            "Min" : 73,
+            "Avg" : 73
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Min" : 76,
+            "Avg" : 76,
+            "date" : "2026-02-02 06:20:00 +0200",
+            "Max" : 76
+          },
+          {
+            "date" : "2026-02-02 06:26:00 +0200",
+            "Min" : 84,
+            "Max" : 84,
+            "Avg" : 84,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "Max" : 78,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:34:00 +0200",
+            "Min" : 78,
+            "Avg" : 78
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 74,
+            "Min" : 74,
+            "date" : "2026-02-02 06:36:00 +0200",
+            "Max" : 74
+          },
+          {
+            "Min" : 74,
+            "date" : "2026-02-02 06:40:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 74,
+            "Max" : 74
+          },
+          {
+            "Avg" : 76,
+            "Min" : 76,
+            "date" : "2026-02-02 06:47:00 +0200",
+            "Max" : 76,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:57:00 +0200",
+            "Max" : 80,
+            "Min" : 80,
+            "source" : "Amit’s Apple Watch",
+            "Avg" : 80
+          },
+          {
+            "date" : "2026-02-02 07:03:00 +0200",
+            "Max" : 75,
+            "Min" : 75,
+            "Avg" : 75,
+            "source" : "Amit’s Apple Watch"
+          }
+        ]
+      },
+      {
+        "data" : [
+          {
+            "date" : "2026-02-01 23:16:00 +0200",
+            "qty" : 1
+          },
+          {
+            "date" : "2026-02-02 00:16:00 +0200",
+            "qty" : 1
+          },
+          {
+            "date" : "2026-02-02 01:16:00 +0200",
+            "qty" : 1.1000000238418579
+          },
+          {
+            "qty" : 2.9000000953674316,
+            "date" : "2026-02-02 01:31:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:31:00 +0200",
+            "qty" : 1
+          },
+          {
+            "date" : "2026-02-02 03:31:00 +0200",
+            "qty" : 1
+          },
+          {
+            "qty" : 1,
+            "date" : "2026-02-02 04:31:00 +0200"
+          },
+          {
+            "qty" : 1.2000000476837158,
+            "date" : "2026-02-02 05:31:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:24:00 +0200",
+            "qty" : 3.1500000953674316
+          },
+          {
+            "qty" : 3.3500000238418579,
+            "date" : "2026-02-02 06:29:00 +0200"
+          },
+          {
+            "qty" : 4,
+            "date" : "2026-02-02 06:55:00 +0200"
+          }
+        ],
+        "name" : "physical_effort",
+        "units" : "kcal\/hr·kg"
+      },
+      {
+        "name" : "walking_step_length",
+        "units" : "cm",
+        "data" : [
+          {
+            "date" : "2026-02-02 06:32:00 +0200",
+            "qty" : 53
+          }
+        ]
+      },
+      {
+        "units" : "km\/hr",
+        "data" : [
+          {
+            "date" : "2026-02-02 06:32:00 +0200",
+            "qty" : 2.4839999999999995
+          }
+        ],
+        "name" : "walking_speed"
+      },
+      {
+        "units" : "km",
+        "name" : "walking_running_distance",
+        "data" : [
+          {
+            "date" : "2026-02-02 06:29:00 +0200",
+            "qty" : 0.00049067906041139274,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.0012756871478396955,
+            "date" : "2026-02-02 06:30:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 0.0012756871478396957,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:31:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:32:00 +0200",
+            "qty" : 0.0012756871478396957,
+            "source" : "Amit’s Apple Watch|Amit’s iPhone"
+          },
+          {
+            "qty" : 0.00058975952933636264,
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "date" : "2026-02-02 06:33:00 +0200"
+          },
+          {
+            "qty" : 0.0078926115575006402,
+            "date" : "2026-02-02 06:49:00 +0200",
+            "source" : "Amit’s Apple Watch|Amit’s iPhone"
+          },
+          {
+            "date" : "2026-02-02 06:50:00 +0200",
+            "qty" : 0.0097713963644114558,
+            "source" : "Amit’s Apple Watch|Amit’s iPhone"
+          },
+          {
+            "qty" : 0.0097713963644114558,
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "date" : "2026-02-02 06:51:00 +0200"
+          },
+          {
+            "qty" : 0.009771396364411454,
+            "date" : "2026-02-02 06:52:00 +0200",
+            "source" : "Amit’s Apple Watch|Amit’s iPhone"
+          },
+          {
+            "date" : "2026-02-02 06:53:00 +0200",
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 0.0097713963644114558
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "date" : "2026-02-02 06:54:00 +0200",
+            "qty" : 0.009771396364411454
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "date" : "2026-02-02 06:55:00 +0200",
+            "qty" : 0.0097713963644114558
+          },
+          {
+            "source" : "Amit’s Apple Watch|Amit’s iPhone",
+            "qty" : 0.0011400108030299005,
+            "date" : "2026-02-02 06:56:00 +0200"
+          }
+        ]
+      },
+      {
+        "units" : "kJ",
+        "data" : [
+          {
+            "qty" : 0.25442159017090737,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:12:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.649737653571032,
+            "date" : "2026-02-02 00:13:00 +0200"
+          },
+          {
+            "qty" : 5.2415166678000471,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:14:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:15:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415166678000471
+          },
+          {
+            "date" : "2026-02-02 00:16:00 +0200",
+            "qty" : 5.2415166678000471,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:17:00 +0200",
+            "qty" : 5.241516667800048
+          },
+          {
+            "qty" : 5.241516667800048,
+            "date" : "2026-02-02 00:18:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:19:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241516667800048
+          },
+          {
+            "date" : "2026-02-02 00:20:00 +0200",
+            "qty" : 5.2415166678000471,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:21:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415166678000471
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:22:00 +0200",
+            "qty" : 5.2415166678000471
+          },
+          {
+            "date" : "2026-02-02 00:23:00 +0200",
+            "qty" : 5.2415166678000462,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415166678000462,
+            "date" : "2026-02-02 00:24:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:25:00 +0200",
+            "qty" : 5.2415166678000471,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:26:00 +0200",
+            "qty" : 5.2415166678000462,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:27:00 +0200",
+            "qty" : 5.2415166678000462,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415166678000471,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:28:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:29:00 +0200",
+            "qty" : 5.2415166678000471
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415166678000471,
+            "date" : "2026-02-02 00:30:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:31:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.282618108148009
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3429399284287289,
+            "date" : "2026-02-02 00:32:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:33:00 +0200",
+            "qty" : 5.3429399284287298,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:34:00 +0200",
+            "qty" : 5.3429399284287298
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:35:00 +0200",
+            "qty" : 5.3429399284287298
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3429399284287298,
+            "date" : "2026-02-02 00:36:00 +0200"
+          },
+          {
+            "qty" : 5.3429399284287307,
+            "date" : "2026-02-02 00:37:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:38:00 +0200",
+            "qty" : 5.3429399284287298,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:39:00 +0200",
+            "qty" : 5.3429399284287307
+          },
+          {
+            "qty" : 5.2562229773578091,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:40:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:41:00 +0200",
+            "qty" : 5.2415730092077091,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:42:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415730092077091
+          },
+          {
+            "date" : "2026-02-02 00:43:00 +0200",
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:44:00 +0200"
+          },
+          {
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:45:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:46:00 +0200",
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415730092077082,
+            "date" : "2026-02-02 00:47:00 +0200"
+          },
+          {
+            "qty" : 5.2415730092077073,
+            "date" : "2026-02-02 00:48:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:49:00 +0200",
+            "qty" : 5.2415730092077082
+          },
+          {
+            "qty" : 5.2415730092077073,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:50:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415730092077073,
+            "date" : "2026-02-02 00:51:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:52:00 +0200",
+            "qty" : 5.2415730092077073,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415730092077073,
+            "date" : "2026-02-02 00:53:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415730092077073,
+            "date" : "2026-02-02 00:54:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415730092077073,
+            "date" : "2026-02-02 00:55:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 00:56:00 +0200",
+            "qty" : 5.2415730092077073,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:57:00 +0200",
+            "qty" : 5.2415730092077073,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 00:58:00 +0200",
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 00:59:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415730092077073,
+            "date" : "2026-02-02 01:00:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:01:00 +0200",
+            "qty" : 5.2415730092077082
+          },
+          {
+            "date" : "2026-02-02 01:02:00 +0200",
+            "qty" : 5.2415730092077082,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:03:00 +0200",
+            "qty" : 5.2415730092077073
+          },
+          {
+            "qty" : 5.2415730092077055,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:04:00 +0200"
+          },
+          {
+            "qty" : 5.2405932261746573,
+            "date" : "2026-02-02 01:05:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:06:00 +0200",
+            "qty" : 5.2411131393700678,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2411131393700661,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:07:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 01:08:00 +0200",
+            "qty" : 5.241113139370067,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:09:00 +0200",
+            "qty" : 5.2411131393700661,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2411131393700661,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:10:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2411131393700661,
+            "date" : "2026-02-02 01:11:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 01:12:00 +0200",
+            "qty" : 5.2411131393700661,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:13:00 +0200",
+            "qty" : 5.2512636080752486,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3011248424027357,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:14:00 +0200"
+          },
+          {
+            "qty" : 5.3011248424027348,
+            "date" : "2026-02-02 01:15:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:16:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3011248424027348
+          },
+          {
+            "qty" : 5.3011248424027357,
+            "date" : "2026-02-02 01:17:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3011248424027348,
+            "date" : "2026-02-02 01:18:00 +0200"
+          },
+          {
+            "qty" : 5.3011248424027348,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:19:00 +0200"
+          },
+          {
+            "qty" : 5.3011248424027357,
+            "date" : "2026-02-02 01:20:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:21:00 +0200",
+            "qty" : 5.3011248424027357,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3011248424027357,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:22:00 +0200"
+          },
+          {
+            "qty" : 5.3011248424027366,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:23:00 +0200"
+          },
+          {
+            "qty" : 5.3011248424027357,
+            "date" : "2026-02-02 01:24:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:25:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3011248424027357
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3011248424027357,
+            "date" : "2026-02-02 01:26:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 01:27:00 +0200",
+            "qty" : 5.301124842402734,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.7903340977458262,
+            "date" : "2026-02-02 01:28:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:29:00 +0200",
+            "qty" : 6.3547325819081095
+          },
+          {
+            "date" : "2026-02-02 01:30:00 +0200",
+            "qty" : 6.3547325819081104,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:31:00 +0200",
+            "qty" : 6.3547325819081113,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.7629066007091962,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:32:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415528764459998,
+            "date" : "2026-02-02 01:33:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:34:00 +0200",
+            "qty" : 5.2415528764459989
+          },
+          {
+            "date" : "2026-02-02 01:35:00 +0200",
+            "qty" : 5.2415528764459998,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:36:00 +0200",
+            "qty" : 5.2415528764459998
+          },
+          {
+            "qty" : 5.2415528764459998,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:37:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415528764460007,
+            "date" : "2026-02-02 01:38:00 +0200"
+          },
+          {
+            "qty" : 5.2415528764459998,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:39:00 +0200"
+          },
+          {
+            "qty" : 5.2415528764459998,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:40:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:41:00 +0200",
+            "qty" : 5.2415528764459998
+          },
+          {
+            "date" : "2026-02-02 01:42:00 +0200",
+            "qty" : 5.2415528764460007,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415528764460007,
+            "date" : "2026-02-02 01:43:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415528764459998,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:44:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:45:00 +0200",
+            "qty" : 5.2415528764460007
+          },
+          {
+            "date" : "2026-02-02 01:46:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415528764460007
+          },
+          {
+            "qty" : 5.2415528764460007,
+            "date" : "2026-02-02 01:47:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415528764460007,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:48:00 +0200"
+          },
+          {
+            "qty" : 5.2415528764460007,
+            "date" : "2026-02-02 01:49:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 01:50:00 +0200",
+            "qty" : 5.2415528764460007,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415528764460007,
+            "date" : "2026-02-02 01:51:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 01:52:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415528764460015
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415528764460007,
+            "date" : "2026-02-02 01:53:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:54:00 +0200",
+            "qty" : 5.2415528764460015
+          },
+          {
+            "qty" : 5.2415528764460015,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:55:00 +0200"
+          },
+          {
+            "qty" : 5.2415528764460015,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:56:00 +0200"
+          },
+          {
+            "qty" : 5.2415528764460015,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 01:57:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 01:58:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2405831305335306
+          },
+          {
+            "qty" : 5.2415163473674378,
+            "date" : "2026-02-02 01:59:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415163473674378,
+            "date" : "2026-02-02 02:00:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:01:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415163473674378
+          },
+          {
+            "qty" : 5.2415163473674369,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:02:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:03:00 +0200",
+            "qty" : 5.2415163473674378,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:04:00 +0200",
+            "qty" : 5.2415163473674369,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:05:00 +0200",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "qty" : 5.2415163473674378,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:06:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:07:00 +0200",
+            "qty" : 5.2415163473674378
+          },
+          {
+            "date" : "2026-02-02 02:08:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "qty" : 5.2415163473674378,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:09:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:10:00 +0200",
+            "qty" : 5.2415163473674369,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:11:00 +0200",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:12:00 +0200",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:13:00 +0200",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "date" : "2026-02-02 02:14:00 +0200",
+            "qty" : 5.2415163473674369,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:15:00 +0200",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:16:00 +0200",
+            "qty" : 5.2415163473674369
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:17:00 +0200",
+            "qty" : 5.241516347367436
+          },
+          {
+            "date" : "2026-02-02 02:18:00 +0200",
+            "qty" : 5.241516347367436,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 6.1059618244364042,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:19:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:20:00 +0200",
+            "qty" : 5.2526785929905264,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:21:00 +0200",
+            "qty" : 5.2413750279784237,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:22:00 +0200",
+            "qty" : 5.2413750279784246
+          },
+          {
+            "qty" : 5.2413750279784237,
+            "date" : "2026-02-02 02:23:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:24:00 +0200",
+            "qty" : 5.2413750279784246
+          },
+          {
+            "date" : "2026-02-02 02:25:00 +0200",
+            "qty" : 5.2413750279784237,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:26:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2413750279784237
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:27:00 +0200",
+            "qty" : 5.2413750279784228
+          },
+          {
+            "date" : "2026-02-02 02:28:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2413750279784237
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:29:00 +0200",
+            "qty" : 5.2413750279784237
+          },
+          {
+            "date" : "2026-02-02 02:30:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2413750279784228
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:31:00 +0200",
+            "qty" : 5.2413750279784219
+          },
+          {
+            "date" : "2026-02-02 02:32:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2413750279784228
+          },
+          {
+            "date" : "2026-02-02 02:33:00 +0200",
+            "qty" : 5.2413750279784228,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:34:00 +0200",
+            "qty" : 5.2413750279784228,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:35:00 +0200",
+            "qty" : 5.2413750279784219,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2413750279784219,
+            "date" : "2026-02-02 02:36:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:37:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2413750279784219
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:38:00 +0200",
+            "qty" : 5.241375027978421
+          },
+          {
+            "date" : "2026-02-02 02:39:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241375027978421
+          },
+          {
+            "date" : "2026-02-02 02:40:00 +0200",
+            "qty" : 5.241375027978421,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241375027978421,
+            "date" : "2026-02-02 02:41:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:42:00 +0200",
+            "qty" : 5.7291134181895869
+          },
+          {
+            "date" : "2026-02-02 02:43:00 +0200",
+            "qty" : 5.3246396854692852,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3246396854692852,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:44:00 +0200"
+          },
+          {
+            "qty" : 5.3246396854692852,
+            "date" : "2026-02-02 02:45:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3246396854692852,
+            "date" : "2026-02-02 02:46:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3246396854692852,
+            "date" : "2026-02-02 02:47:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:48:00 +0200",
+            "qty" : 5.3246396854692843,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:49:00 +0200",
+            "qty" : 5.3246396854692843
+          },
+          {
+            "qty" : 5.3246396854692835,
+            "date" : "2026-02-02 02:50:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:51:00 +0200",
+            "qty" : 5.3246396854692835,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:52:00 +0200",
+            "qty" : 5.3246396854692826,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:53:00 +0200",
+            "qty" : 5.3246396854692835
+          },
+          {
+            "qty" : 5.3246396854692835,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:54:00 +0200"
+          },
+          {
+            "qty" : 5.3246396854692835,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 02:55:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:56:00 +0200",
+            "qty" : 5.3246396854692826,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3246396854692835,
+            "date" : "2026-02-02 02:57:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 02:58:00 +0200",
+            "qty" : 5.2630196056822731,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 02:59:00 +0200",
+            "qty" : 5.2780240773838401,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:00:00 +0200",
+            "qty" : 5.2780240773838401,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:01:00 +0200",
+            "qty" : 5.2780240773838418,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:02:00 +0200",
+            "qty" : 5.2780240773838418,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2780240773838427,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:03:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:04:00 +0200",
+            "qty" : 5.2780240773838427,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2780240773838427,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:05:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:06:00 +0200",
+            "qty" : 5.2780240773838427,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:07:00 +0200",
+            "qty" : 5.2780240773838427,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:08:00 +0200",
+            "qty" : 5.2780240773838436
+          },
+          {
+            "qty" : 5.2780240773838436,
+            "date" : "2026-02-02 03:09:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:10:00 +0200",
+            "qty" : 5.2732447121309249,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:11:00 +0200",
+            "qty" : 5.2653507191445827
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:12:00 +0200",
+            "qty" : 5.2653507191445827
+          },
+          {
+            "date" : "2026-02-02 03:13:00 +0200",
+            "qty" : 5.2653507191445819,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:14:00 +0200",
+            "qty" : 5.265350719144581,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2653507191445819,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:15:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.265350719144581,
+            "date" : "2026-02-02 03:16:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:17:00 +0200",
+            "qty" : 5.265350719144581,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:18:00 +0200",
+            "qty" : 5.2653507191445819
+          },
+          {
+            "date" : "2026-02-02 03:19:00 +0200",
+            "qty" : 5.265350719144581,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2653507191445819,
+            "date" : "2026-02-02 03:20:00 +0200"
+          },
+          {
+            "qty" : 5.2653507191445819,
+            "date" : "2026-02-02 03:21:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2653507191445819,
+            "date" : "2026-02-02 03:22:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:23:00 +0200",
+            "qty" : 5.2653507191445819
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:24:00 +0200",
+            "qty" : 5.265350719144581
+          },
+          {
+            "date" : "2026-02-02 03:25:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2653507191445819
+          },
+          {
+            "date" : "2026-02-02 03:26:00 +0200",
+            "qty" : 5.265350719144581,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2653507191445801,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:27:00 +0200"
+          },
+          {
+            "qty" : 5.3657811264344835,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:28:00 +0200"
+          },
+          {
+            "qty" : 5.6101198540761645,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:29:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744343,
+            "date" : "2026-02-02 03:30:00 +0200"
+          },
+          {
+            "qty" : 5.2868063672744343,
+            "date" : "2026-02-02 03:31:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744334,
+            "date" : "2026-02-02 03:32:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:33:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744334
+          },
+          {
+            "qty" : 5.2868063672744334,
+            "date" : "2026-02-02 03:34:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:35:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744317
+          },
+          {
+            "qty" : 5.2868063672744317,
+            "date" : "2026-02-02 03:36:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:37:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744325
+          },
+          {
+            "date" : "2026-02-02 03:38:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744317
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:39:00 +0200",
+            "qty" : 5.2868063672744317
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:40:00 +0200",
+            "qty" : 5.2868063672744317
+          },
+          {
+            "qty" : 5.2868063672744317,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:41:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 03:42:00 +0200",
+            "qty" : 5.2868063672744317,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744308,
+            "date" : "2026-02-02 03:43:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744308,
+            "date" : "2026-02-02 03:44:00 +0200"
+          },
+          {
+            "qty" : 5.2868063672744317,
+            "date" : "2026-02-02 03:45:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:46:00 +0200",
+            "qty" : 5.2868063672744308
+          },
+          {
+            "date" : "2026-02-02 03:47:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2868063672744308
+          },
+          {
+            "date" : "2026-02-02 03:48:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3029002268740202
+          },
+          {
+            "date" : "2026-02-02 03:49:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3142321556827019
+          },
+          {
+            "qty" : 5.3142321556827019,
+            "date" : "2026-02-02 03:50:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:51:00 +0200",
+            "qty" : 5.3142321556827019,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 03:52:00 +0200",
+            "qty" : 5.3142321556827028
+          },
+          {
+            "date" : "2026-02-02 03:53:00 +0200",
+            "qty" : 5.3142321556827028,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:54:00 +0200",
+            "qty" : 5.3142321556827028,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3142321556827019,
+            "date" : "2026-02-02 03:55:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:56:00 +0200",
+            "qty" : 5.3142321556827028,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 03:57:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3142321556827019
+          },
+          {
+            "qty" : 5.3142321556827019,
+            "date" : "2026-02-02 03:58:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3142321556827019,
+            "date" : "2026-02-02 03:59:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:00:00 +0200",
+            "qty" : 5.3142321556827037,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:01:00 +0200",
+            "qty" : 5.3142321556827019,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:02:00 +0200",
+            "qty" : 5.3142321556827028,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3142321556827028,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:03:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:04:00 +0200",
+            "qty" : 5.3142321556827028
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3142321556827046,
+            "date" : "2026-02-02 04:05:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2672972275341587,
+            "date" : "2026-02-02 04:06:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:07:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221912
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:08:00 +0200",
+            "qty" : 5.2414572745221912
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:09:00 +0200",
+            "qty" : 5.2414572745221921
+          },
+          {
+            "date" : "2026-02-02 04:10:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221921
+          },
+          {
+            "date" : "2026-02-02 04:11:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241457274522193
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241457274522193,
+            "date" : "2026-02-02 04:12:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:13:00 +0200",
+            "qty" : 5.241457274522193,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.241457274522193,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:14:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:15:00 +0200",
+            "qty" : 5.2414572745221939,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221939,
+            "date" : "2026-02-02 04:16:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:17:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221939
+          },
+          {
+            "date" : "2026-02-02 04:18:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221939
+          },
+          {
+            "qty" : 5.2414572745221948,
+            "date" : "2026-02-02 04:19:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:20:00 +0200",
+            "qty" : 5.2414572745221948
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:21:00 +0200",
+            "qty" : 5.2414572745221948
+          },
+          {
+            "qty" : 5.2414572745221948,
+            "date" : "2026-02-02 04:22:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2414572745221957,
+            "date" : "2026-02-02 04:23:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:24:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221957
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:25:00 +0200",
+            "qty" : 5.2414572745221957
+          },
+          {
+            "date" : "2026-02-02 04:26:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221957
+          },
+          {
+            "date" : "2026-02-02 04:27:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2414572745221966
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:28:00 +0200",
+            "qty" : 5.2414572745221966
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:29:00 +0200",
+            "qty" : 5.2414572745221966
+          },
+          {
+            "qty" : 5.2414572745221957,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:30:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 04:31:00 +0200",
+            "qty" : 5.2414572745221948,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:32:00 +0200",
+            "qty" : 5.347000520145162
+          },
+          {
+            "date" : "2026-02-02 04:33:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.4656745698131441
+          },
+          {
+            "qty" : 5.465674569813145,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:34:00 +0200"
+          },
+          {
+            "qty" : 5.465674569813145,
+            "date" : "2026-02-02 04:35:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:36:00 +0200",
+            "qty" : 5.465674569813145
+          },
+          {
+            "qty" : 5.465674569813145,
+            "date" : "2026-02-02 04:37:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.465674569813145,
+            "date" : "2026-02-02 04:38:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 04:39:00 +0200",
+            "qty" : 5.465674569813145,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:40:00 +0200",
+            "qty" : 5.4656745698131459
+          },
+          {
+            "qty" : 5.4656745698131459,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:41:00 +0200"
+          },
+          {
+            "qty" : 5.4656745698131459,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:42:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.4656745698131468,
+            "date" : "2026-02-02 04:43:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:44:00 +0200",
+            "qty" : 5.4656745698131468
+          },
+          {
+            "qty" : 5.4656745698131459,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:45:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:46:00 +0200",
+            "qty" : 5.287807216322002
+          },
+          {
+            "date" : "2026-02-02 04:47:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2408527770069995
+          },
+          {
+            "qty" : 5.2408527770069995,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:48:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:49:00 +0200",
+            "qty" : 5.2408527770069995
+          },
+          {
+            "qty" : 5.2409761759926834,
+            "date" : "2026-02-02 04:50:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919988,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:51:00 +0200"
+          },
+          {
+            "qty" : 5.2415606299919979,
+            "date" : "2026-02-02 04:52:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919979,
+            "date" : "2026-02-02 04:53:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919979,
+            "date" : "2026-02-02 04:54:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.241560629991997,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:55:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241560629991997,
+            "date" : "2026-02-02 04:56:00 +0200"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:57:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 04:58:00 +0200",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "date" : "2026-02-02 04:59:00 +0200",
+            "qty" : 5.241560629991997,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:00:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "date" : "2026-02-02 05:01:00 +0200",
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.241560629991997,
+            "date" : "2026-02-02 05:02:00 +0200"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "date" : "2026-02-02 05:03:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:04:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "qty" : 5.241560629991997,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:05:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:06:00 +0200",
+            "qty" : 5.2415606299919952,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:07:00 +0200",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "date" : "2026-02-02 05:08:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "date" : "2026-02-02 05:09:00 +0200",
+            "qty" : 5.2415606299919952,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:10:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961,
+            "date" : "2026-02-02 05:11:00 +0200"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:12:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961,
+            "date" : "2026-02-02 05:13:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:14:00 +0200",
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:15:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919961,
+            "date" : "2026-02-02 05:16:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:17:00 +0200",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:18:00 +0200",
+            "qty" : 5.2415606299919961
+          },
+          {
+            "qty" : 5.2415606299919952,
+            "date" : "2026-02-02 05:19:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919952,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:20:00 +0200"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:21:00 +0200"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "date" : "2026-02-02 05:22:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:23:00 +0200",
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:24:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:25:00 +0200",
+            "qty" : 5.2415606299919961,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919952,
+            "date" : "2026-02-02 05:26:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2415606299919952,
+            "date" : "2026-02-02 05:27:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:28:00 +0200",
+            "qty" : 5.2415606299919952,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.2415606299919952,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:29:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:30:00 +0200",
+            "qty" : 5.2415606299919943
+          },
+          {
+            "qty" : 5.2415606299919943,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:31:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:32:00 +0200",
+            "qty" : 5.2415606299919943,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:33:00 +0200",
+            "qty" : 5.2415606299919935
+          },
+          {
+            "date" : "2026-02-02 05:34:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.2550384085442623
+          },
+          {
+            "date" : "2026-02-02 05:35:00 +0200",
+            "qty" : 5.3130621924177204,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:36:00 +0200",
+            "qty" : 5.3130621924177195,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3130621924177195,
+            "date" : "2026-02-02 05:37:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3130621924177204,
+            "date" : "2026-02-02 05:38:00 +0200"
+          },
+          {
+            "qty" : 5.3130621924177204,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:39:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:40:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3130621924177195
+          },
+          {
+            "date" : "2026-02-02 05:41:00 +0200",
+            "qty" : 5.3130621924177204,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:42:00 +0200",
+            "qty" : 5.3130621924177195,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:43:00 +0200",
+            "qty" : 5.3130621924177204
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3130621924177204,
+            "date" : "2026-02-02 05:44:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:45:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3130621924177213
+          },
+          {
+            "qty" : 5.3194694318615925,
+            "date" : "2026-02-02 05:46:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:47:00 +0200",
+            "qty" : 5.3860878948256703,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3860878948256703,
+            "date" : "2026-02-02 05:48:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 05:49:00 +0200",
+            "qty" : 5.3860878948256703,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3860878948256694,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:50:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3860878948256694,
+            "date" : "2026-02-02 05:51:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:52:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3860878948256694
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3860878948256676,
+            "date" : "2026-02-02 05:53:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 05:54:00 +0200",
+            "qty" : 5.3860878948256676,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:55:00 +0200",
+            "qty" : 5.3860878948256694
+          },
+          {
+            "date" : "2026-02-02 05:56:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.3860878948256676
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:57:00 +0200",
+            "qty" : 5.3860878948256667
+          },
+          {
+            "qty" : 5.3860878948256694,
+            "date" : "2026-02-02 05:58:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.3860878948256667,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 05:59:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:00:00 +0200",
+            "qty" : 5.3860878948256676,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:01:00 +0200",
+            "qty" : 5.4288273887695695,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 6.4333445015330852,
+            "date" : "2026-02-02 06:02:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 6.4333445015330852,
+            "date" : "2026-02-02 06:03:00 +0200"
+          },
+          {
+            "qty" : 6.4333445015330843,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:04:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 6.4333445015330852,
+            "date" : "2026-02-02 06:05:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:06:00 +0200",
+            "qty" : 6.4333445015330861,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 6.4333445015330852,
+            "date" : "2026-02-02 06:07:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:08:00 +0200",
+            "qty" : 6.4333445015330852
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:09:00 +0200",
+            "qty" : 5.9929801232993247
+          },
+          {
+            "qty" : 5.793720124366863,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:10:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:11:00 +0200",
+            "qty" : 5.793720124366863,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:12:00 +0200",
+            "qty" : 5.793720124366863
+          },
+          {
+            "date" : "2026-02-02 06:13:00 +0200",
+            "qty" : 5.793720124366863,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.793720124366863,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:14:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.7937201243668621,
+            "date" : "2026-02-02 06:15:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:16:00 +0200",
+            "qty" : 5.7937201243668621
+          },
+          {
+            "qty" : 5.7937201243668621,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:17:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.7937201243668621,
+            "date" : "2026-02-02 06:18:00 +0200"
+          },
+          {
+            "qty" : 5.7937201243668612,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:19:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:20:00 +0200",
+            "qty" : 5.7937201243668621,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 5.793720124366863,
+            "date" : "2026-02-02 06:21:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:22:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 5.7937201243668621
+          },
+          {
+            "qty" : 5.793720124366863,
+            "date" : "2026-02-02 06:23:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:24:00 +0200",
+            "qty" : 6.6174736748767229,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.0763371280962506,
+            "date" : "2026-02-02 06:25:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.0763371280962497,
+            "date" : "2026-02-02 06:26:00 +0200"
+          },
+          {
+            "qty" : 7.0763371280962506,
+            "date" : "2026-02-02 06:27:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:28:00 +0200",
+            "qty" : 7.0763371280962506,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:29:00 +0200",
+            "qty" : 7.0763371280962506
+          },
+          {
+            "date" : "2026-02-02 06:30:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.0763371280962515
+          },
+          {
+            "qty" : 7.0763371280962506,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:31:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:32:00 +0200",
+            "qty" : 7.0763371280962515
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:33:00 +0200",
+            "qty" : 7.0763371280962506
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.0763371280962488,
+            "date" : "2026-02-02 06:34:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:35:00 +0200",
+            "qty" : 7.0763371280962506
+          },
+          {
+            "qty" : 7.0763371280962497,
+            "date" : "2026-02-02 06:36:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:37:00 +0200",
+            "qty" : 7.0763371280962497
+          },
+          {
+            "date" : "2026-02-02 06:38:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.0763371280962479
+          },
+          {
+            "qty" : 6.8987211668783246,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:39:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:40:00 +0200",
+            "qty" : 7.3240197697129465,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-02 06:41:00 +0200",
+            "qty" : 7.5143074236710303,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:42:00 +0200",
+            "qty" : 7.5143074236710303
+          },
+          {
+            "qty" : 7.5143074236710294,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:43:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:44:00 +0200",
+            "qty" : 7.5143074236710294,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:45:00 +0200",
+            "qty" : 7.5143074236710294
+          },
+          {
+            "date" : "2026-02-02 06:46:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.5143074236710286
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:47:00 +0200",
+            "qty" : 7.5143074236710294
+          },
+          {
+            "qty" : 7.5143074236710294,
+            "date" : "2026-02-02 06:48:00 +0200",
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "qty" : 7.5143074236710286,
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:49:00 +0200"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:50:00 +0200",
+            "qty" : 7.5143074236710294
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:51:00 +0200",
+            "qty" : 7.5143074236710294
+          },
+          {
+            "date" : "2026-02-02 06:52:00 +0200",
+            "qty" : 7.5143074236710312,
+            "source" : "Amit’s Apple Watch"
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "date" : "2026-02-02 06:53:00 +0200",
+            "qty" : 7.5143074236710286
+          },
+          {
+            "source" : "Amit’s Apple Watch",
+            "qty" : 7.5143074236710294,
+            "date" : "2026-02-02 06:54:00 +0200"
+          },
+          {
+            "date" : "2026-02-02 06:55:00 +0200",
+            "source" : "Amit’s Apple Watch",
+            "qty" : 2.2886336524166904
+          }
+        ],
+        "name" : "basal_energy_burned"
+      }
+    ]
+  }
+}

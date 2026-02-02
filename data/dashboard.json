@@ -1,0 +1,62 @@
+{
+  "lastUpdated": "2026-02-02T06:42:26.018Z",
+  "data": [
+    {
+      "date": "2026-01-31",
+      "steps": 6335,
+      "distance": 0,
+      "activeEnergy": 593,
+      "exerciseMinutes": 14,
+      "restingHR": 60,
+      "avgHRV": 26,
+      "avgSpO2": 92,
+      "sleepTotal": 5.8862182236711185,
+      "sleepDeep": 0.701356003748046,
+      "sleepREM": 1.4443933510780336,
+      "sleepCore": 3.740468868845039,
+      "sleepAwake": 0.9016972340477837,
+      "sleepStart": "2026-01-30 23:44:56 +0200",
+      "sleepEnd": "2026-01-31 06:32:13 +0200",
+      "respiratoryRate": 20.9,
+      "walkingSpeed": 3.73
+    },
+    {
+      "date": "2026-02-01",
+      "steps": 1514,
+      "distance": 0,
+      "activeEnergy": 349,
+      "exerciseMinutes": 2,
+      "restingHR": 71,
+      "avgHRV": 25,
+      "avgSpO2": 94,
+      "sleepTotal": 5.694243449336954,
+      "sleepDeep": 0.526029542254077,
+      "sleepREM": 1.1771977041827308,
+      "sleepCore": 3.991016202900145,
+      "sleepAwake": 1.2189403866397008,
+      "sleepStart": "2026-01-31 22:56:10 +0200",
+      "sleepEnd": "2026-02-01 05:50:58 +0200",
+      "respiratoryRate": 20.6,
+      "walkingSpeed": 2.86
+    },
+    {
+      "date": "2026-02-02",
+      "steps": 101,
+      "distance": 0,
+      "activeEnergy": 37,
+      "exerciseMinutes": 0,
+      "restingHR": 0,
+      "avgHRV": 18,
+      "avgSpO2": 94,
+      "sleepTotal": 7.147138543327649,
+      "sleepDeep": 0.4341804415318701,
+      "sleepREM": 1.736653172208203,
+      "sleepCore": 4.976304929587576,
+      "sleepAwake": 0.5009572436743311,
+      "sleepStart": "2026-02-01 22:13:55 +0200",
+      "sleepEnd": "2026-02-02 05:52:48 +0200",
+      "respiratoryRate": 0,
+      "walkingSpeed": 2.48
+    }
+  ]
+}
