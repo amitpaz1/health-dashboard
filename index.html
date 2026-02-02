@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
         :root {
             --bg-primary: #0f0f0f;
@@ -224,7 +224,7 @@
                 <div class="card steps">
                     <div class="card-title">Daily Steps</div>
                     <div class="card-value" id="stepsValue">-</div>
-                    <div class="card-unit">steps today</div>
+                    <div class="card-unit" id="stepsLabel">steps yesterday</div>
                 </div>
                 <div class="card sleep">
                     <div class="card-title">Sleep Duration</div>
@@ -304,16 +304,21 @@
 
         function updateDashboard() {
             const data = healthData.data;
-            const latest = data[data.length - 1];
+            // Use latest complete day (skip today's partial data if we have yesterday)
+            const today = new Date().toISOString().slice(0, 10);
+            const latest = data.length > 1 && data[data.length - 1].date === today
+                ? data[data.length - 2] : data[data.length - 1];
+            // Sleep comes from today's file (last night's sleep)
+            const sleepSource = data[data.length - 1];
 
             // Update last updated timestamp
             const lastUpdated = new Date(healthData.lastUpdated);
             document.getElementById('lastUpdated').textContent = 
                 `Last updated: ${lastUpdated.toLocaleDateString()} ${lastUpdated.toLocaleTimeString()}`;
 
-            // Update summary cards
+            // Update summary cards (steps/energy from last complete day, sleep from latest file)
             document.getElementById('stepsValue').textContent = latest.steps.toLocaleString();
-            document.getElementById('sleepValue').textContent = latest.sleepTotal.toFixed(1);
+            document.getElementById('sleepValue').textContent = sleepSource.sleepTotal ? sleepSource.sleepTotal.toFixed(1) : (latest.sleepTotal ? latest.sleepTotal.toFixed(1) : '-');
             document.getElementById('rhrValue').textContent = latest.restingHR || '-';
             document.getElementById('energyValue').textContent = latest.activeEnergy.toLocaleString();
 

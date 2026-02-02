@@ -22,34 +22,70 @@ echo "$(date): Starting health data sync"
 echo "Fetching file list from Google Drive..."
 FILES_JSON=$(gog drive ls --parent 1d3XsiwY9EOziqJd_cpWZx9qjrNZ5QSHy --max 100 --json)
 
-# Check if we got valid JSON
-if ! echo "$FILES_JSON" | jq . >/dev/null 2>&1; then
-    echo "Error: Invalid JSON response from Google Drive API"
+# Check if we got valid response
+if [[ -z "$FILES_JSON" ]]; then
+    echo "Error: Empty response from Google Drive API"
     exit 1
 fi
 
-# Extract file list and download new files
-echo "$FILES_JSON" | jq -r '.files[] | "\(.id) \(.name)"' | while read -r file_id filename; do
-    # Only process HealthAutoExport JSON files
-    if [[ "$filename" == HealthAutoExport-*.json ]]; then
-        local_path="data/raw/$filename"
+# Use a temporary Node.js script to parse JSON and download files
+cat > /tmp/parse_drive_files.js << 'EOF'
+const fs = require('fs');
+const { execSync } = require('child_process');
+
+// Read JSON from stdin
+let input = '';
+process.stdin.setEncoding('utf8');
+process.stdin.on('readable', () => {
+  let chunk = process.stdin.read();
+  if (chunk !== null) {
+    input += chunk;
+  }
+});
+
+process.stdin.on('end', () => {
+  try {
+    const data = JSON.parse(input);
+    
+    data.files.forEach(file => {
+      // Only process HealthAutoExport JSON files
+      if (file.name.startsWith('HealthAutoExport-') && file.name.endsWith('.json')) {
+        const localPath = `data/raw/${file.name}`;
         
-        # Check if file already exists
-        if [[ ! -f "$local_path" ]]; then
-            echo "Downloading new file: $filename"
-            gog drive download "$file_id" --out "$local_path"
+        // Check if file already exists
+        if (!fs.existsSync(localPath)) {
+          console.log(`Downloading new file: ${file.name}`);
+          
+          try {
+            execSync(`gog drive download "${file.id}" --out "${localPath}"`, { 
+              stdio: 'inherit',
+              env: process.env 
+            });
             
-            # Verify download succeeded
-            if [[ -f "$local_path" ]]; then
-                echo "✓ Downloaded: $filename ($(du -h "$local_path" | cut -f1))"
-            else
-                echo "✗ Failed to download: $filename"
-            fi
-        else
-            echo "Already have: $filename"
-        fi
-    fi
-done
+            // Verify download succeeded
+            if (fs.existsSync(localPath)) {
+              const stats = fs.statSync(localPath);
+              const sizeKB = Math.round(stats.size / 1024);
+              console.log(`✓ Downloaded: ${file.name} (${sizeKB}KB)`);
+            } else {
+              console.log(`✗ Failed to download: ${file.name}`);
+            }
+          } catch (error) {
+            console.log(`✗ Error downloading ${file.name}: ${error.message}`);
+          }
+        } else {
+          console.log(`Already have: ${file.name}`);
+        }
+      }
+    });
+  } catch (error) {
+    console.error('Error parsing JSON:', error.message);
+    process.exit(1);
+  }
+});
+EOF
+
+echo "$FILES_JSON" | node /tmp/parse_drive_files.js
 
 echo "Processing health data..."
 if node scripts/process.js; then
