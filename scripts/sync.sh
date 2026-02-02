@@ -5,9 +5,12 @@
 
 set -e
 
-# Set environment variables
-export GOG_KEYRING_PASSWORD="c7382cf96ff1fc62aed89ef08b42763e"
-export GOG_ACCOUNT="amit.paz@gmail.com"
+# Require environment variables (don't hardcode secrets!)
+if [ -z "$GOG_KEYRING_PASSWORD" ] || [ -z "$GOG_ACCOUNT" ]; then
+    echo "Error: GOG_KEYRING_PASSWORD and GOG_ACCOUNT must be set"
+    echo "Usage: GOG_KEYRING_PASSWORD=xxx GOG_ACCOUNT=you@gmail.com ./scripts/sync.sh"
+    exit 1
+fi
 
 # Change to project directory
 cd "$(dirname "$0")/.."

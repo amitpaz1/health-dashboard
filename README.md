@@ -43,7 +43,7 @@ A personal health analytics dashboard that automatically syncs and visualizes iP
 1. Clone this repository
 2. Set up environment variables:
    ```bash
-   export GOG_KEYRING_PASSWORD="your-keyring-password"
+   export GOG_KEYRING_PASSWORD="$GOG_KEYRING_PASSWORD"  # set in your shell profile
    export GOG_ACCOUNT="your-google-account@gmail.com"
    ```
 3. Run initial sync:
